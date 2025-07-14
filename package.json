@@ -2,7 +2,7 @@
         "name": "studio",
         "version": "1.0.0",
         "main": "dist/main.js",
-        "description": "Electron app setup",
+        "description": "Fast and easy creation of beautiful Anki flashcards. Drag-and-drop notes or files, convert instantly, and streamline your learning workflow with 2anki.net integration.",
         "scripts": {
                 "build": "tsc",
                 "start": "pnpm run build && electron .",
