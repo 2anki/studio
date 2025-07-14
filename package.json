@@ -1,0 +1,17 @@
+{
+        "name": "studio",
+        "version": "1.0.0",
+        "main": "dist/main.js",
+        "description": "Electron app setup",
+        "scripts": {
+                "build": "tsc",
+                "start": "pnpm run build && electron .",
+                "watch": "tsc --watch"
+        },
+        "devDependencies": {
+                "@types/electron": "^1.6.12",
+                "@types/node": "^24.0.13",
+                "electron": "^30.0.0",
+                "typescript": "^5.8.3"
+        }
+}
